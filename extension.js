@@ -3,7 +3,7 @@ const { GoogleGenAI } = require('@google/genai');
 const fs = require('fs');
 const path = require('path');
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyBuoHYeMaxnpbWxckt2PgisqmAzdqQonlc' });
+const ai = new GoogleGenAI({ apiKey: '' });
 
 async function callGeminiAPI(prompt) {
     const response = await ai.models.generateContent({
